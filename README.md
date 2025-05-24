@@ -7,17 +7,17 @@ this repository utilizes independent, robust and proven utilities and unifies th
 simple auditable scripts.
 
 ## Preparation
-
-* Install dependencies via `./misc/install-key.sh`
+* Install dependencies via `./misc/install-dependencies.sh`
 * Optionally create example keys via `./misc/generate-key.sh`
 
 ## Usage
-
 * Create PDF from key via `./create-key-print-file.sh private.key`
 * Create key from PDF via `./read-key-print-file.sh out/physical-key-file.pdf`
 
-## Utilities
+## Screenshot
+![Screenshot](misc/screenshot.png?raw=true "Screenshot")
 
+## Utilities
 | Library       | Tested Version                       | Justification                                                        |
 | ------------- | ------------------------------------ | -------------------------------------------------------------------- |
 | openssl       | 3.0.2-0ubuntu1.19                    | Trusted cryptographic library used for key generation                |
